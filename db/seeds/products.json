@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Catnip", 
+        "price": 199, 
+        "description": "For when your cat needs to chill out."
+    }, 
+    {
+        "name": "Milk", 
+        "price": 450, 
+        "description": "Technically you shouldn't be giving this to your cat..."
+    }, 
+    {
+        "name": "Chicken", 
+        "price": 699, 
+        "description": "A nice hunk of chicken breast."
+    }
+]

@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Product.create(name: "Catnip", price: 199, description: "For when your cat needs to chill out.")
-Product.create(name: "Milk", price: 450, description: "Technically you shouldn't be giving this to your cat...")
-Product.create(name: "Chicken", price: 699, description: "A nice hunk of chicken breast.")
+json = ActiveSupport::JSON.decode(File.read('db/seeds/products.json'))
+json.each do |record|
+  Product.create!(record)
+end
