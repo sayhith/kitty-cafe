@@ -13,5 +13,40 @@
         "name": "Chicken", 
         "price": 699, 
         "description": "A nice hunk of chicken breast."
+    }, 
+    {
+        "name": "Canned tuna",
+        "price": 250,
+        "description": "Flaked skipjack in water. Low sodium of course."
+    }, 
+    {
+        "name": "Fresh tuna",
+        "price": 600,
+        "description": "Fresh bluefin tuna caught daily!"
+    }, 
+    {
+        "name": "Fancy Feast",
+        "price": 189,
+        "description": "The fanciest of feasts."
+    }, 
+    {
+        "name": "Shrimp",
+        "price": 1100,
+        "description": "A pound of fresh shrimp." 
+    }, 
+    {
+        "name": "Treats",
+        "price": 589,
+        "description": "For when your kitty has been extra good."
+    }, 
+    {
+        "name": "Ham",
+        "price": 1239,
+        "description": "Oink oink." 
+    }, 
+    {
+        "name": "Turkey",
+        "price": 3000,
+        "description": "Not chicken."
     }
 ]
