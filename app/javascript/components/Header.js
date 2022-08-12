@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-    <h1>Kitty Market</h1>
+    <h1>Welcome to Kitty's Café!</h1>
   </header>
 );
 
